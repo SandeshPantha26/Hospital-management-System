@@ -1,0 +1,141 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2a3d4c;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hospital-background.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #5cb85c;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #4cae4c;
+}
+
+/* Quick Links */
+.quick-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.quick-link {
+    text-align: center;
+    width: 30%;
+}
+
+.quick-link h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.quick-link p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.quick-link a {
+    color: #2a3d4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quick-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2a3d4c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
